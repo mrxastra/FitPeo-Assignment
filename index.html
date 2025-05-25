@@ -1,0 +1,83 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #c4c4c4;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #a1a1a1;
+      }
+      body {
+        background-color: #F9FAFB;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'cl-blue': '#3b82f6', // Main blue
+              'cl-blue-dark': '#3734a9', // Darke blue primary
+              'cl-blue-medium':'#dfe3f8', // Medium blue
+              'cl-text-primary': '#1f2937', // Dark gray for primary
+              'cl-text-secondary': '#6b7280', // Medium gray for secondar
+              'cl-text-muted': '#9ca3af', // Light gray for muted text
+              'cl-bg-main': '#ffffff', // Main background for content area
+              'cl-bg-sidebar': '#f6faff',
+              'cl-green': '#10b981', // Green for success/positive stats
+              'cl-red': '#b44c4d', // Red for alerts/critical stats
+              'cl-orange': '#ff7e5e', // Orange for warning/neutral stats
+              'cl-calendar-blue': '#abb0d8', // Lighter blue for calendar available slots (was DBEAFE)
+              'cl-calendar-event': '#60a5fa', // Blue for calendar events (was 3B82F6)
+              'cl-calendar-event-dark': '#3734a9', // Darker blue for primary calendar events
+              'cl-bar-grey' : '#dbdfe4', // Greay for bar in Activity
+              'cl-bar-blue' : '#01dfef',// blue for Graph Activity
+              'cl-bar-dark' : '#3734a9',//dark blue for graph
+              'cl-background-light': '#f6faff'
+            },
+            boxShadow: {
+              'card': '0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.07)',
+              'card-lg': '0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -4px rgba(0, 0, 0, 0.07)',
+            },
+          
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.511.0"
+  }
+}
+</script>
+<script src="https://unpkg.com/@babel/standalone@7.21.0/babel.min.js"></script>
+</head>
+  <body class="bg-cl-bg-main">
+    <div id="root"></div>
+    <script type="text/babel" data-type="module" src="/src/main.jsx"></script>
+  </body>
+</html><link rel="stylesheet" href="index.css">
