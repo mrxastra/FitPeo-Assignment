@@ -67,13 +67,13 @@ const Calendar = () => {
             aria-label="Previous month"
           >
             {/* <ChevronLeft size={18} /> */}
-            <img className="rotate-180" src="../assets/arrow.png" />
+            <img className="rotate-180" src="../arrow.png" />
           </button>
           <button
             className="p-1.5 rounded-md hover:bg-gray-100 text-cl-text-secondary hover:text-cl-blue "
             aria-label="Next month"
           >
-            <img src="../assets/arrow.png" />
+            <img src="../arrow.png" />
             {/* <ChevronRight size={18} /> */}
           </button>
         </div>

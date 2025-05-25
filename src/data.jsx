@@ -62,7 +62,7 @@ export const SideNavDownData = [
   { id: "setting", label: "Setting", icon: <Settings {...navIconProps} /> },
 ];
 
-export const HumanModelPath = "./assets/humanBody.png";
+export const HumanModelPath = "./humanBody.png";
 
 
 //Health Card data of Lungs teeth and bones
@@ -70,7 +70,7 @@ export const HealthData = [
   {
     id: "lungs",
     title: "Lungs",
-    icon: <img src="./assets/lungs.png" />,
+    icon: <img src="./lungs.png" />,
     date: "Date: 26 Oct 2021",
     progress: 80,
     progressColor: "bg-cl-red",
@@ -78,7 +78,7 @@ export const HealthData = [
   {
     id: "teeth",
     title: "Teeth",
-    icon: <img src="./assets/teeth.png" />,
+    icon: <img src="./teeth.png" />,
     date: "Date: 26 Oct 2021",
     progress: 80,
     progressColor: "bg-cl-green",
@@ -86,7 +86,7 @@ export const HealthData = [
   {
     id: "bone",
     title: "Bone",
-    icon: <img src="./assets/bone.png" />,
+    icon: <img src="./bone.png" />,
     date: "Date: 26 Oct 2021",
     progress: 80,
     progressColor: "bg-cl-orange",

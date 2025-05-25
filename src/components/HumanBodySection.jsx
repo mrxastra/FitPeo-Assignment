@@ -58,8 +58,8 @@ const HumanBodySection = () => {
             >
               <ModelViewer modelPath={yourGltfFilePath} />
             </div>
-              <img className="rotate-180 ml-8 mt-4 w-[80%] h-[8%]" src='../../assets/long-arrow.png'/>
-            {/* <img src="../assets/scan.png" className="absolute top-[5vw] right-[3vw] border-2 border-black w-10 h-10" /> */}
+              <img className="rotate-180 ml-8 mt-4 w-[80%] h-[8%]" src='../../long-arrow.png'/>
+            {/* <img src="../scan.png" className="absolute top-[5vw] right-[3vw] border-2 border-black w-10 h-10" /> */}
           </div>
           <button className="absolute top-4 right-4 p-2  bg-cl-background-light rounded-full hover:bg-gray-100 " aria-label="Zoom in">
             <ZoomIn size={22} className="text-cl-text-secondary" />
